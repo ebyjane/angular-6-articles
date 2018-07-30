@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-brand{
+  color:#006bb7 !important;
+}
+.nav-pills.outline-active .nav-link.active {
+  background: #fff !important;
+  border-bottom: 2px solid #006bb7 !important;
+  color: #006bb7 !important;
+}
+a:focus, a:hover {
+  color: #006bb7;
+  text-decoration: underline;
+}
+a {
+  color: #006bb7;
+  text-decoration: none;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #006bb7;
+  border-color: #006bb7;
+}
+.btn-outline-primary {
+  color: #006bb7;
+  background-image: none;
+  background-color: transparent;
+  border-color: #006bb7;
+  padding-left:10px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #006bb7;
+  border-color: #006bb7;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #006bb7;
+  border-color: #006bb7;
+}
+.home-page .banner {
+  background: #006bb7;
+  box-shadow: inset 0 8px 8px -8px rgba(0,0,0,.3),inset 0 -8px 8px -8px rgba(0,0,0,.3);
+}
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #006bb7;
+  border-color: #006bb7;
+}
